@@ -4,7 +4,7 @@ var time = new Date().getHours();
 var wakeupTime = 9; 
 var noon = 12;
 var lunchTime = 14; 
-var night = 20; 
+var night = 21; 
 var partyTime = 19;
 var napTime = lunchTime + 2;
 var isPartyTime = false;
@@ -39,7 +39,7 @@ if (time == partyTime){
     image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat1.jpg";
  
   
-}else if (time == night || time < wakeupTime){
+}else if (time == night){
     messageText = "BEAUTY SLEEP TIME.";
     image = "https://s-media-cache-ak0.pinimg.com/564x/8d/b7/b4/8db7b495829602529e047682cf088742.jpg";
  
