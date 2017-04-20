@@ -4,7 +4,8 @@ var time = new Date().getHours();
 var wakeupTime = 9; 
 var noon = 12;
 var lunchTime = 13; 
-var night = 21; 
+var night = 20;  
+
 var partyTime = 19;
 var napTime = lunchTime + 2;
 var isPartyTime = false;
